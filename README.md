@@ -25,7 +25,7 @@ sudo pacman -S rofi fastfetch git
 
 Run the following command sequence to clone the repository and deploy configurations to their target paths:
 
-```
+```bash
 cd ~ && git clone [https://github.com/lostmyblood/XFCE-Monochrome-Rice.git](https://github.com/lostmyblood/XFCE-Monochrome-Rice.git) && \
 mkdir -p ~/.config/rofi ~/.config/fastfetch ~/.config/xfce4/xfconf/xfce-perchannel-xml && \
 sudo mkdir -p /usr/share/themes/Blacklight && \
@@ -51,12 +51,6 @@ cd XFCE-Monochrome-Rice
 ```bash
 mkdir -p ~/.config/rofi
 cp -r rofi/* ~/.config/rofi/
-```
-
-To execute Rofi with the monochrome theme applied:
-
-```bash
-rofi -show drun -theme ~/.config/rofi/monochrome.rasi
 ```
 
 #### 3. Fastfetch Configuration
