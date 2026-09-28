@@ -60,7 +60,7 @@ cp -r rofi/* ~/.config/rofi/
 mkdir -p ~/.config/fastfetch
 cp -r fastfetch/* ~/.config/fastfetch/
 ```
-
+![image](https://raw.githubusercontent.com/lostmyblood/XFCE-Monochrome-Rice/refs/heads/main/screenshots/fastfetch.png)
 #### 4. System GTK Theme Setup
 
 Deploy all contents of the `Backlight` folder into `/usr/share/themes/Blacklight/`:
@@ -69,6 +69,8 @@ Deploy all contents of the `Backlight` folder into `/usr/share/themes/Blacklight
 sudo mkdir -p /usr/share/themes/Blacklight
 sudo cp -r Backlight/* /usr/share/themes/Blacklight/
 ```
+![image](https://raw.githubusercontent.com/lostmyblood/XFCE-Monochrome-Rice/refs/heads/main/screenshots/globalstyle.png)
+![image](https://raw.githubusercontent.com/lostmyblood/XFCE-Monochrome-Rice/refs/heads/main/screenshots/windowmanager.png)
 4. XFCE Keybinds
 
 Replace the existing XFCE keyboard shortcuts configuration file with the repository's custom keybindings file:
