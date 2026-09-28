@@ -75,8 +75,13 @@ Deploy all contents of the `Backlight` folder into `/usr/share/themes/Blacklight
 sudo mkdir -p /usr/share/themes/Blacklight
 sudo cp -r Backlight/* /usr/share/themes/Blacklight/
 ```
+4. XFCE Keybinds
 
----
+Replace the existing XFCE keyboard shortcuts configuration file with the repository's custom keybindings file:
+```
+mkdir -p ~/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+```
 
 ## System Configuration
 
