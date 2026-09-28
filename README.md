@@ -1,8 +1,7 @@
 # XFCE Monochrome Rice
 
 A lightweight, dark monochrome desktop environment configuration for XFCE4 on Arch Linux.
-![Uploading Screenshot_2026-09-28_19-42-03.png…]()
-
+![image](https://raw.githubusercontent.com/lostmyblood/XFCE-Monochrome-Rice/refs/heads/main/screenshots/Screenshot_2026-09-28_19-42-03.png)
 
 ## Overview
 
