@@ -83,14 +83,3 @@ cp xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4
 3. Navigate to **Settings Manager** -> **Window Manager**.
 4. Select **Blacklight** for titlebar frame styling.
 
-## Directory Structure
-
-```text
-XFCE-Monochrome-Rice/
-├── Backlight/             # GTK theme source files
-├── rofi/
-│   └── monochrome.rasi    # Custom Rofi theme specification
-├── fastfetch/
-│   └── config.jsonc       # Fastfetch configuration layout
-└── README.md              # Project documentation
-```
