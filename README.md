@@ -25,7 +25,7 @@ sudo pacman -S rofi fastfetch git
 
 Run the following command sequence to clone the repository and deploy configurations to their target paths:
 
-```bash
+```
 cd ~ && git clone [https://github.com/lostmyblood/XFCE-Monochrome-Rice.git](https://github.com/lostmyblood/XFCE-Monochrome-Rice.git) && \
 mkdir -p ~/.config/rofi ~/.config/fastfetch ~/.config/xfce4/xfconf/xfce-perchannel-xml && \
 sudo mkdir -p /usr/share/themes/Blacklight && \
@@ -34,7 +34,7 @@ sudo mkdir -p /usr/share/themes/Blacklight && \
 [ -d XFCE-Monochrome-Rice/fastfetch ] && cp -r XFCE-Monochrome-Rice/fastfetch/* ~/.config/fastfetch/ || true && \
 [ -f XFCE-Monochrome-Rice/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ] && cp XFCE-Monochrome-Rice/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml || true && \
 [ -d XFCE-Monochrome-Rice/Backlight ] && sudo cp -r XFCE-Monochrome-Rice/Backlight/* /usr/share/themes/Blacklight/ || true```
----
+```
 
 ### Manual Setup
 
