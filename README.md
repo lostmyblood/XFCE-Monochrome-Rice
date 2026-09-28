@@ -16,7 +16,7 @@ A lightweight, dark monochrome desktop environment configuration for XFCE4 on Ar
 Install required system packages via `pacman`:
 
 ```bash
-sudo pacman -S --needed xfce4 xfce4-goodies rofi fastfetch git
+sudo pacman -S rofi fastfetch git
 ```
 
 ## Installation & Configuration
@@ -84,13 +84,6 @@ sudo cp -r Backlight/* /usr/share/themes/Blacklight/
 2. Under the **Style** tab, select **Blacklight**.
 3. Navigate to **Settings Manager** -> **Window Manager**.
 4. Select **Blacklight** for titlebar frame styling.
-5. Set your application launcher shortcut command to:
-
-```bash
-rofi -show drun -theme ~/.config/rofi/monochrome.rasi
-```
-
----
 
 ## Directory Structure
 
@@ -103,7 +96,3 @@ XFCE-Monochrome-Rice/
 │   └── config.jsonc       # Fastfetch configuration layout
 └── README.md              # Project documentation
 ```
-
-## License
-
-Distributed under the MIT License.
