@@ -53,7 +53,7 @@ cd XFCE-Monochrome-Rice
 mkdir -p ~/.config/rofi
 cp -r rofi/* ~/.config/rofi/
 ```
-
+![image](https://raw.githubusercontent.com/lostmyblood/XFCE-Monochrome-Rice/refs/heads/main/screenshots/rofi.jpg)
 #### 3. Fastfetch Configuration
 
 ```bash
